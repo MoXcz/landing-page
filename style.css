@@ -7,6 +7,8 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 
 .hero-header {
@@ -58,4 +60,57 @@ h2,
 .header-button,
 .sign-up-box {
   background-color: #3882f6;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #f9faf8;
+}
+
+/* Layout */
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  padding: 12px 120px;
+}
+
+.links {
+  display: flex;
+  margin-left: auto;
+  gap: 16px;
+}
+
+.header {
+  padding: 60px 120px;
+  display: flex;
+  gap: 32px;
+}
+
+.header-content > * {
+  margin-bottom: 8px;
+}
+
+.image {
+  background-color: lightgrey;
+  flex: 1;
+}
+
+.header-content {
+  flex: 1;
+}
+
+.header-button {
+  border-radius: 6px;
+  padding: 4px 12px;
+  border-style: none;
+  color: #f9faf8;
 }

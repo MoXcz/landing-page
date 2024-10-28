@@ -71,12 +71,13 @@ a {
   color: #f9faf8;
 }
 
-/* Layout */
-
 body {
   display: flex;
   flex-direction: column;
 }
+
+/* Header and Nav Layout */
+
 
 .nav {
   display: flex;
@@ -113,4 +114,38 @@ body {
   padding: 4px 12px;
   border-style: none;
   color: #f9faf8;
+}
+
+/* Content Layout (Information and Quote) */
+
+.information h3 {
+  text-align: center;
+  margin: 12px 0;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  margin: 30px 100px 100px 70px;
+}
+
+.card {
+  flex: 0 1 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  border: 1px black solid;
+  border-radius: 16px;
+}
+
+.information p {
+  text-align: center;
+  margin-top: 4px;
 }

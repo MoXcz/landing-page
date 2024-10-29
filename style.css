@@ -149,3 +149,24 @@ body {
   text-align: center;
   margin-top: 4px;
 }
+
+/* Quote Layout */
+
+.quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px;
+}
+
+.quote p {
+  align-self: flex-end;
+  font-weight: 700;
+}
+
+.container {
+  max-width: 750px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}

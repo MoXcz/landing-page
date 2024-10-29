@@ -195,3 +195,12 @@ body {
   border: 1px #f9faf8 solid;
   color: #f9faf8;
 }
+
+/* Footer Layout */
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
